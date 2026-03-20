@@ -6,13 +6,25 @@
 #include <iterator>
 #include <algorithm>
 #include <string>
+
+
+/**
+ * @brief Класс для вывода целых чисел из текстового файла. Использует итераторы istream_iterator, ostream_iterator и алгоритм copy.
+ */
 class FilePrinter {
 private:
     std::string filename;
 
 public:
+    /**
+     * @brief Конструктор, принимающий имя файла.
+     * @param fname Имя файла для чтения.
+     */
     FilePrinter(const std::string& fname) : filename(fname) {}
 
+    /**
+     * @brief Выводит все целые числа из файла в том же порядке, разделяя пробелами.
+     */
     void printNumbers() const {
         std::ifstream file(filename);
         if (!file.is_open()) {
@@ -27,4 +39,4 @@ public:
     }
 };
 
-#endif 
+#endif // FILEPRINTER_H
