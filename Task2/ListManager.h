@@ -1,7 +1,3 @@
-/**
- * @file ListManager.h
- * @brief Заголовочный файл класса для управления списками.
- */
 
 #ifndef LIST_MANAGER_H
 #define LIST_MANAGER_H
@@ -10,15 +6,6 @@
 #include <stdexcept>
 #include <iostream>
 
-/**
- * @class ListManager
- * @brief Класс для работы с двумя списками и перемещения элементов между ними.
- * 
- * Класс инкапсулирует два списка типа T и предоставляет методы
- * для манипуляции их элементами, включая перемещение среднего элемента.
- * 
- * @tparam T Тип элементов, хранящихся в списках.
- */
 template <typename T>
 class ListManager
 {
