@@ -1,9 +1,15 @@
-#include "FilePrint.h"
+﻿#include "FilePrint.h"
+#include <iostream>
+#include <locale>
 
 int main() {
+    setlocale(LC_ALL, "");
 
-    char* locale = setlocale(LC_ALL, "");
-    FilePrinter printer("name.txt");
+    std::string filename;
+    std::cout << "Введите имя файла: ";
+    std::getline(std::cin, filename);
+
+    FilePrinter printer(filename);
     printer.printNumbers();
 
     return 0;
