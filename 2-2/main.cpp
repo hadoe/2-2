@@ -3,7 +3,7 @@
 #include <locale>
 
 int main() {
-    setlocale(LC_ALL, "ru_RU.UTF-8");
+    setlocale(LC_ALL, "");
 
     std::string filename;
     std::cout << "Введите имя файла: ";

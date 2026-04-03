@@ -361,5 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/.gitignore
-/.gitignore
+/Task2/ListManager.h
+/Task2/main.cpp

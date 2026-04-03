@@ -1,4 +1,4 @@
-﻿#include "FilePrint.h"
+#include "FilePrint.h"
 #include <iostream>
 #include <fstream>
 #include <iterator>

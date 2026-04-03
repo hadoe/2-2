@@ -3,20 +3,19 @@
 
 #include <string>
 
-
 class FilePrinter {
 private:
     std::string filename;
 
 public:
     /**
-     * @brief конструктор.
-     * @param fname имя читаемого файла.
+     * @brief конструктор класса.
+     * @param fname имя файла.
      */
     FilePrinter(const std::string& fname);
 
     /**
-     * @brief Выводит числа в соответствии с заданием.
+     * @brief выводит числа в соответствии с заданием.
      */
     void printNumbers() const;
 };
