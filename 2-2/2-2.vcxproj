@@ -131,6 +131,7 @@
     <ClInclude Include="FilePrint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FilePrint.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
