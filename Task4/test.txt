@@ -1,0 +1,8 @@
+0 0 A
+-2 4 world
+0 0 A
+0 0 origin
+10 -5 negative
+0 0 A
+-1 -1 both_neg
+0 0 A
