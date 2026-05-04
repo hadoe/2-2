@@ -59,11 +59,9 @@ int main()
         std::ifstream fout_read(name);
         if (fout_read.is_open())
         {
-            std::string line;
-            while (std::getline(fout_read, line))
-            {
-                std::cout << line << std::endl;
-            }
+            std::copy(std::istreambuf_iterator<char>(fout_read),
+                      std::istreambuf_iterator<char>(),
+                      std::ostream_iterator<char>(std::cout));
             fout_read.close();
         }
     }
