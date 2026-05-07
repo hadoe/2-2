@@ -25,7 +25,7 @@ struct point
      * @param y Координата y.
      * @param s Строковое представление.
      */
-    point(int x, int y, const std::string& s);
+    point(const int x, const int y, const std::string& s);
 
     /**
      * @brief Оператор сравнения: A < B.
